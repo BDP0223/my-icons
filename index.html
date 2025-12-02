@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>我的图标库</title>
+    <link rel="icon" href="favicon.ico">
+</head>
+<body style="font-family: Arial; padding: 20px;">
+    <h1>🎉 恭喜！你的图标网站搭建成功</h1>
+    <p>你的域名：<strong id="domain">等待配置...</strong></p>
+    
+    <h2>📁 图标列表</h2>
+    <ul>
+        <li><a href="favicon.ico">favicon.ico</a> - 浏览器标签图标</li>
+        <!-- 如果你有其他图标，在这里添加 -->
+    </ul>
+    
+    <h2>🔗 使用方法</h2>
+    <p>在你的其他网站中这样引用：</p>
+    <pre>&lt;link rel="icon" href="https://你的域名.com/favicon.ico"&gt;</pre>
+    
+    <script>
+        // 自动显示当前域名
+        document.getElementById('domain').textContent = window.location.hostname;
+    </script>
+</body>
+</html>
