@@ -1,6 +1,8 @@
 {
-  "version": "7.3",
-  "release_date": "2026-08-03",
-  "message": "新增选择球队自动加载、扫码打开控制端等功能",
-  "detail": [ "摆渡球手体育" ]
+  "version": "8.1",
+  "message": "摆渡球手篮球比分系统 pro-v8.1_dp",
+  "release_date": "2026-10-31",
+  "detail": [
+    “官网地址:https://bdqs.live”
+  ]
 }
